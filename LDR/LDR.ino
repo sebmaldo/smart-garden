@@ -1,4 +1,3 @@
-#include <math.h>
 int rele = 8;
 
 void setup() {
