@@ -1,9 +1,9 @@
 #include <math.h>
-int rele = 10;
+int rele = 8;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(10, OUTPUT);
+  pinMode(rele, OUTPUT);
   pinMode(A0,INPUT);
   digitalWrite(rele,LOW);
 }
